@@ -174,8 +174,6 @@ class _HomePageState extends State<HomePage> {
                     'title': Global.title,
                     'details': Global.name,
                   };
-                  /*CloudFirestoreHelper.cloudFirestoreHelper
-                      .insertRecord(data: data);*/
                   CloudFirestoreHelper.cloudFirestoreHelper
                       .insertRecord(data: data);
                   titleController.clear();
@@ -185,9 +183,6 @@ class _HomePageState extends State<HomePage> {
                     Global.name = "";
                   });
                   Navigator.of(context).pop();
-
-                  // await CloudFirestoreHelper.cloudFirestoreHelper
-                  //     .insertRecord();
                 }
               },
               child: const Text("Add")),
