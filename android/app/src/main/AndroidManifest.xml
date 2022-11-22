@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.author_registration">
+    package="com.example.notkeeper">
    <application
-        android:label="author_registration"
+        android:label="notkeeper"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
