@@ -1,6 +1,10 @@
 import 'dart:convert';
 import 'dart:io';
 import 'dart:typed_data';
+<<<<<<< HEAD
+=======
+
+>>>>>>> cb4f9bdbcd3f5758ff316c6d4342bcd13adba1e8
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_native_image/flutter_native_image.dart';
@@ -25,7 +29,11 @@ class _HomePageState extends State<HomePage> {
   Uint8List? image;
   Uint8List? decodedImage;
   String encodedImage = "";
+<<<<<<< HEAD
   //String books = "";
+=======
+  String books = "";
+>>>>>>> cb4f9bdbcd3f5758ff316c6d4342bcd13adba1e8
   //------------------------------
   @override
   Widget build(BuildContext context) {
@@ -102,8 +110,12 @@ class _HomePageState extends State<HomePage> {
                                     /*await CloudFirestoreHelper.cloudFirestoreHelper
                                       .updateRecord(id: "${documents[index]}");*/
                                     validateAndEditData(
+<<<<<<< HEAD
                                         id: documents[index].id,
                                         data: documents[index]);
+=======
+                                        id: documents[index].id);
+>>>>>>> cb4f9bdbcd3f5758ff316c6d4342bcd13adba1e8
                                   },
                                   icon: const Icon(
                                     Icons.edit,
